@@ -1,0 +1,10 @@
+# Direct runtime declarations. These names are intentionally unpinned until a
+# separately reviewed lock or constraints artifact is created; this file alone
+# does not define a reproducible install.
+certifi
+google-api-python-client
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
+pillow
+pyautogui

@@ -1,5 +1,13 @@
 # Release Notes
 
+## Avero rebrand — Unreleased
+
+The project is now named **Avero**. The repository, documentation, and future release titles use
+the Avero identity. The `jarvis_v2` Python package, `launch_jarvis_v3*` launchers, `JARVIS_*`
+environment variables, `~/.jarvis_v3` storage, persistent protocol identifiers, and historical
+proof names remain compatibility interfaces. This branding release does not migrate local state,
+activate services, change schedules, or authorize external actions.
+
 ## 4.0.0-rc.1 — 2026-08-17
 
 Jarvis V4 4.0.0-rc.1 is a local personal-assistant release candidate for macOS. It is intended for

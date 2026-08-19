@@ -1,6 +1,6 @@
 # Security Policy
 
-Jarvis V4 is a macOS, single-owner functional preview. It is not designed as a hosted service,
+Avero V4 is a macOS, single-owner functional preview. It is not designed as a hosted service,
 shared-account system, or security boundary between mutually untrusted users on the same Mac.
 
 ## Report a vulnerability privately
@@ -22,7 +22,7 @@ another side effect merely to collect evidence.
 
 ## Preview security boundary
 
-- Run Jarvis only under the intended local macOS account and keep runtime configuration outside the
+- Run Avero only under the intended local macOS account and keep runtime configuration outside the
   repository with owner-only permissions.
 - Treat approvals as single-use authorization for one exact action. An unknown outcome is not
   success and must not be replayed automatically.

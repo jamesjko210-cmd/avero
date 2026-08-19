@@ -1,12 +1,19 @@
-# Jarvis V4
+# Avero V4
 
-> **Current release:** V4 is the public release identity of the frozen and tested V3 implementation.
+> **Current release:** Avero is the product identity of the frozen and tested V4 preview.
 > V2 is frozen and remains the running rollback generation until a separately supervised cutover.
 > The internal Python package remains `jarvis_v2` temporarily for compatibility.
 
+Avero is the new public and owner-facing name for this personal AI agent. The repository, docs,
+and future releases use **Avero**. Existing `jarvis_v2` imports, `launch_jarvis_v3*` launchers,
+`JARVIS_*` settings, local storage paths, tool names, and historical evidence remain stable
+compatibility interfaces; changing those identifiers without a migration would break existing
+installations. See [`BRANDING.md`](BRANDING.md) for the exact boundary.
+
 This version promotion does not rename or migrate the tested runtime. The `launch_jarvis_v3*`
 launchers, `JARVIS_V3_*` settings, `~/.jarvis_v3` storage, V3-named evidence, and the current local
-workspace remain compatibility identities. New feature development after this release belongs to V5.
+workspace remain compatibility identities. New feature development belongs to the Avero V4.x
+point-release series.
 
 The detailed guide below was carried forward from the V2 implementation and is being migrated in
 place. Any V2 service label, path, or live-proof reference is historical unless a V3-specific
@@ -19,9 +26,9 @@ In the public candidate, `QUICKSTART.md` is the authoritative fresh-start and da
 environment setup before using any launcher. This README describes development checks; it does not
 authorize scheduler or service activation.
 
-Clean rebuild of a personal AI agent.
+Compatibility-safe development of a personal AI agent.
 
-This is the Jarvis V4 release source. If another assistant is looking for the compatibility V3
+This is the Avero V4 release source. If another assistant is looking for the compatibility V3
 dashboard or launcher, use this folder, not `jarvis-ollama`.
 
 This version keeps the useful parts of the original Jarvis but separates the core systems:

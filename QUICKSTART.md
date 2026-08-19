@@ -1,14 +1,14 @@
-# Jarvis V4 quick start
+# Avero V4 quick start
 
-Use these commands in the macOS Terminal, from the Jarvis V4 project checkout.
+Use these commands in the macOS Terminal, from the Avero project checkout.
 
 The tested runtime intentionally retains V3 compatibility names: `launch_jarvis_v3*`,
 `JARVIS_V3_*`, and `~/.jarvis_v3`. Do not rename them during setup; V4 is the public release
-identity, not a new runtime-state migration.
+identity. Avero is the public product name; this release does not migrate runtime state.
 
 ## First-time local setup
 
-Jarvis V4 requires Python 3.11 or newer. For a fresh checkout, create one project-local Python
+Avero V4 requires Python 3.11 or newer. For a fresh checkout, create one project-local Python
 environment so every launcher and setup helper uses the same dependencies. Installing the
 requirements uses the network and disk, so run these commands yourself only when intended:
 

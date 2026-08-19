@@ -1,10 +1,10 @@
-# Jarvis V4 — Capabilities
+# Avero V4 — Capabilities
 
 > V4 capability inventory promoted from the frozen and tested V3 implementation. A listed integration is
 > not a live-proof claim; current readiness, approval state, and recipient-visible evidence remain
 > authoritative.
 
-Jarvis is one local personal-agent harness with many visible capabilities. It
+Avero is one local personal-agent harness with many visible capabilities. It
 routes what you type or say automatically, runs read-only and local-safe work
 on its own, and **stops for your ✅ approval before anything risky** (real
 messages, calls, emails, calendar writes).
